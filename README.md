@@ -1,42 +1,124 @@
 Company Diary
+Overview
 
-Company Diary is a web-based placement management system designed for college placement departments to streamline the entire recruitment coordination process. It helps manage company profiles, track communication, record recruitment data, and generate insightful reports. Built using PHP and MySQL, the system provides an efficient way for placement officers to organize placement drives and maintain accurate company interaction records.
+Company Diary is a web-based Placement Management System developed to streamline and digitalize the recruitment coordination process in colleges.
 
-Features
+The system helps placement departments efficiently manage company profiles, track communication history, record recruitment drive details, and generate analytical reports. Built using PHP and MySQL, it provides a centralized and structured platform to replace manual placement record management.
 
-Company Management: Add, edit, and delete company profiles with essential details such as contact information, company type, and recruitment requirements.
+Objective
 
-Follow-up Tracking: Record follow-up details and communication history with each company to ensure effective coordination.
+The primary objective of Company Diary is to:
 
-Placement Data Management: Maintain detailed records of recruitment drives, including eligible students, drive dates, and outcomes.
+Digitize placement department operations
 
-Automated Reports: Generate summary reports for quick analysis of placement statistics, company visits, and follow-up status.
+Maintain structured company interaction records
 
-User Authentication: Secure login system ensuring that only authorized users can access or modify data.
+Track recruitment drives and hiring outcomes
 
-Responsive Interface: Designed with a user-friendly layout that adapts to both desktop and mobile screens.
+Improve communication follow-ups
 
-Search and Filter: Quickly locate company details, previous visits, or recruitment data using search and sorting functionality.
+Generate analytical reports for decision-making
 
-Database Backup Ready: Structured database that allows safe export and import of placement data for record-keeping.
+Key Features
 
-Working
+Company profile management (Add, Edit, Delete)
 
-The Company Diary system works by providing a centralized platform for placement officers to manage and track all company-related information. When a company expresses interest in recruiting, its details are entered into the system. Follow-up communications are logged and updated as interactions progress.
+Follow-up and communication tracking
 
-Placement officers can schedule and record recruitment drives, track student participation, and update hiring results. The system automatically organizes data to generate analytical reports, helping staff make data-driven decisions about upcoming placement activities.
+Recruitment drive record management
 
-The interface provides an easy navigation flow:
+Automated summary report generation
 
-Login to the system using admin credentials.
+Secure user authentication system
 
-Access the dashboard to view summary statistics.
+Search and filter functionality
 
-Manage company entries, follow-ups, and recruitment results.
+Responsive and user-friendly interface
 
-Generate reports for departmental submission or record maintenance.
+Structured database for safe backup and export
 
-By digitizing manual processes, Company Diary significantly reduces paperwork and improves efficiency in managing placement activities.
+System Modules
+1. Authentication Module
+
+Secure admin login
+
+Session-based access control
+
+Restricts unauthorized data access
+
+2. Company Management Module
+
+Store company details (name, contact info, type, requirements)
+
+Update and delete company records
+
+Maintain structured company database
+
+3. Follow-up Tracking Module
+
+Record communication history
+
+Log follow-up dates and remarks
+
+Track coordination progress
+
+4. Placement Drive Module
+
+Record recruitment drive details
+
+Store drive dates and eligibility criteria
+
+Update placement results and outcomes
+
+5. Reporting Module
+
+Generate placement summary reports
+
+Analyze company visits and hiring trends
+
+Provide structured data for departmental review
+
+System Working (Concept)
+
+User Login
+
+Placement officers log in using secure credentials.
+
+Company Entry
+
+When a company expresses recruitment interest, its details are added to the system.
+
+Follow-Up Recording
+
+Communication and updates are logged systematically.
+
+Drive Management
+
+Recruitment drives are scheduled and recorded.
+
+Student eligibility and results are maintained.
+
+Report Generation
+
+The system organizes stored data to produce analytical summaries for review and planning.
+
+By replacing manual registers and spreadsheets, the system improves efficiency, reduces paperwork, and enhances placement coordination accuracy.
+
+Main Functionalities
+
+Secure Admin Login
+
+Add/Edit/Delete Company Records
+
+Track Follow-Up Communications
+
+Manage Recruitment Drives
+
+Update Hiring Results
+
+Generate Placement Reports
+
+Search and Filter Company Data
 
 Technologies Used
 
@@ -46,29 +128,28 @@ Backend: PHP
 
 Database: MySQL
 
-Server Environment: XAMPP / Apache
+Server Environment: Apache (XAMPP)
 
-Installation Guide
+Future Enhancements
 
-Clone or download this repository.
+Student login portal
 
-git clone https://github.com/yourusername/company-diary.git
+Automated email notifications to companies
 
+Data visualization dashboards (charts & graphs)
 
-Move the folder to your XAMPP htdocs directory.
+Integration with college ERP system
 
-Import the database file (company_diary.sql) into phpMyAdmin.
+Export reports in PDF/Excel format
 
-Update the database connection details in config.php.
+Cloud deployment for multi-user access
 
-Start Apache and MySQL from the XAMPP Control Panel.
+Developer Information
 
-Open your browser and go to:
-
-http://localhost/company-diary/
-
-Developer
-
-Dhruva D
-Department of Computer Science, Vidya vardhaka college of engineering
-Developed for the Placement Department to digitalize and automate the company management and placement tracking process.
+Project Title: Company Diary
+Developed By: Dhruva D
+Department: Computer Science
+College: Vidya Vardhaka College of Engineering
+Role: Full Stack Web Developer
+Technologies: PHP, MySQL, HTML, CSS, JavaScript
+Year: 2025
